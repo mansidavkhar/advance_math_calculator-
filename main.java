@@ -50,10 +50,11 @@ public class main {
                     number1.get_MultiplicationOf_complex(other_number1);
 
                 case 3:
-//                    System.out.println("write the number of complex number you want to add  : ");
-//                    int e = input.nextInt()  ;
-//                    ComplexNumber number2 = new ComplexNumber(0,0) ;
-//                    number2.get_addition_of_multiple_complex_number(e);
+                    System.out.println("write the number of complex number you want to add  : ");
+                    int e = input.nextInt()  ;
+                    ComplexNumber number2 = new ComplexNumber(0,0) ;
+                    number2.get_addition_of_multiple_complex_number(e);
+
                 case 4:
                     System.out.println("write the number of complex number you want to multiply");
                     int f = input.nextInt() ;
