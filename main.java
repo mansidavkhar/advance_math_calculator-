@@ -15,6 +15,7 @@ public class main {
             System.out.println("what do you want to do in complex number ?");
             System.out.println("1. add two complex numbers ");
             System.out.println("2. multiply two complex numbers");
+            System.out.println("3. add more than two complex number ");
             System.out.println("x. plot a complex number in graph ");
             byte internal_choice = input.nextByte();
             switch (internal_choice ) {
@@ -48,9 +49,16 @@ public class main {
                     number1.get_MultiplicationOf_complex(other_number1);
 
                 case 3:
+                    System.out.println("write the number of complex number you want to add  : ");
+                    int e = input.nextInt()  ;
+                    ComplexNumber number2 = new ComplexNumber(0,0) ;
+                    number2.get_addition_of_multiple_complex_number(e);
                 case 4:
 
             }
+
+        } else if (choice ==2 ) {
+
 
         }
     }
