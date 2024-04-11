@@ -54,6 +54,8 @@ public class main {
                     ComplexNumber number2 = new ComplexNumber(0,0) ;
                     number2.get_addition_of_multiple_complex_number(e);
                 case 4:
+                    System.out.println("write the number of complex number you want to multiply");
+                    int f = input.nextInt() ;
 
             }
 
